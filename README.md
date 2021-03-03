@@ -1,4 +1,5 @@
 # TextEditor
+![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/TextEditor)
 A text editor using Java
 It will be similar to Notepad++ but like an IDE as well. 
 
