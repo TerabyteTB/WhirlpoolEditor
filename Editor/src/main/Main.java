@@ -1,19 +1,28 @@
 package main;
 
-import java.io.IOException;
+import editor.TextEdit;
 
-import toolbox.SessionHandler;
-
-public class Main {
-
-	public static void main(String[] args) {
+public class Main implements Runnable{
+	
+	private Thread thread;
+	
+	public Main() {
 		
+		thread = new Thread(this);
+		thread.start();
+		
+	}
+
+	@Override
+	public void run() {
+		
+		TextEdit editor = new TextEdit();
 		try {
-			SessionHandler.startSession();
-		} catch (IOException e) {
+			thread.join();
+		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-
+		
 	}
 
 }
