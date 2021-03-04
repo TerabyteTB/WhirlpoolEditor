@@ -14,6 +14,7 @@ A text editor using Java, similar to Atom.
 - [ ]  multi-tab browsing
 
 <a class="github-button" href="https://github.com/TerabyteTB/TextEditor/archive/master.zip" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Download TerabyteTB/TextEditor on GitHub">Download</a>
+<a class="github-button" href="https://github.com/TerabyteTB/TextEditor" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-size="large" aria-label="Star TerabyteTB/TextEditor on GitHub">Star</a>
 
 A Work In Progress (WIP)
 
