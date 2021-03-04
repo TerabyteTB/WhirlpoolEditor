@@ -5,9 +5,13 @@
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TerabyteTB/TextEditor)
 
-A text editor using Java. It will be similar to Atom.
+A text editor using Java, similar to Atom.
 
-A WIP
+[x] support sessions
+[x] JSON support with JSON-Simple & Jackson
+[ ] multi-tab browsing
+
+A Work In Progress (WIP)
 
 *Tested on Windows 10 x64*
  
