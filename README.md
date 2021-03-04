@@ -1,4 +1,6 @@
-# TextEditor
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+#TextEditor
 ![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/TextEditor)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TerabyteTB/TextEditor)
 ![GitHub](https://img.shields.io/github/license/TerabyteTB/TextEditor)
