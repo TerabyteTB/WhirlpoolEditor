@@ -6,6 +6,7 @@
 ![GitHub](https://img.shields.io/github/license/TerabyteTB/TextEditor)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TerabyteTB/TextEditor)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/TerabyteTB/TextEditor)
 
 A text editor using Java, similar to Atom.
 
