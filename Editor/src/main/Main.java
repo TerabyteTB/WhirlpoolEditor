@@ -1,28 +1,21 @@
 package main;
 
+import java.io.IOException;
+
 import editor.TextEdit;
 
-public class Main implements Runnable{
-	
-	private Thread thread;
+public class Main{
 	
 	public Main() {
-		
-		thread = new Thread(this);
-		thread.start();
-		
+		run();
 	}
 
-	@Override
 	public void run() {
-		
-		TextEdit editor = new TextEdit();
 		try {
-			thread.join();
-		} catch (InterruptedException e) {
+			TextEdit editor = new TextEdit();
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
 	}
 
 }

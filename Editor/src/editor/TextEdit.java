@@ -7,6 +7,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
@@ -20,13 +21,15 @@ import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.plaf.metal.MetalLookAndFeel;
 import javax.swing.plaf.metal.OceanTheme;
 
+import toolbox.SessionHandler;
+
 public class TextEdit extends JFrame implements ActionListener{
 
 	private static final long serialVersionUID = 2144770514856556800L;
 	private JTextArea area;
 	private JFrame frame;
 	
-	public TextEdit() {
+	public TextEdit() throws IOException {
 		
 		frame = new JFrame();
 		try {
@@ -56,9 +59,9 @@ public class TextEdit extends JFrame implements ActionListener{
         
         JMenu m2 = new JMenu("Edit"); 
         
-        JMenuItem mi4 = new JMenuItem("cut"); 
-        JMenuItem mi5 = new JMenuItem("copy"); 
-        JMenuItem mi6 = new JMenuItem("paste"); 
+        JMenuItem mi4 = new JMenuItem("Cut"); 
+        JMenuItem mi5 = new JMenuItem("Copy"); 
+        JMenuItem mi6 = new JMenuItem("Paste"); 
         
         mi4.addActionListener(this); 
         mi5.addActionListener(this); 
@@ -68,7 +71,7 @@ public class TextEdit extends JFrame implements ActionListener{
         m2.add(mi5); 
         m2.add(mi6); 
         
-        JMenuItem mc = new JMenuItem("close"); 
+        JMenuItem mc = new JMenuItem("Close"); 
         
         mc.addActionListener(this); 
   
@@ -79,7 +82,9 @@ public class TextEdit extends JFrame implements ActionListener{
         frame.setJMenuBar(mb); 
         frame.add(area); 
         frame.setSize(500, 500); 
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        SessionHandler.startSession();
 		
 	}
 
@@ -87,13 +92,13 @@ public class TextEdit extends JFrame implements ActionListener{
 		
 		String s = e.getActionCommand(); 
 		  
-        if (s.equals("cut")) { 
+        if (s.equals("Cut")) { 
             area.cut(); 
         } 
-        else if (s.equals("copy")) { 
+        else if (s.equals("Copy")) { 
             area.copy(); 
         } 
-        else if (s.equals("paste")) { 
+        else if (s.equals("Paste")) { 
             area.paste(); 
         } 
         else if (s.equals("Save")) { 
@@ -182,8 +187,9 @@ public class TextEdit extends JFrame implements ActionListener{
         else if (s.equals("New")) { 
             area.setText(""); 
         } 
-        else if (s.equals("close")) { 
+        else if (s.equals("Close")) { 
             frame.setVisible(false); 
+            System.exit(0);
         } 
 		
 	}

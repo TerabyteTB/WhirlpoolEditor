@@ -1,26 +1,35 @@
 package toolbox;
 
-import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
 
 public final class JSONFormatter {
 	
-	public static void formatJSON(String fileName, String extension) {
+	private JSONFormatter() {}
+	
+	public static <T> void formatAndPrintJSON(String path, String fileName, T jsonData) {
 		
-		File file = new File(fileName + "." + extension);
+		File fileDir = new File(path);
+		fileDir.mkdirs();
+		File file = new File(path + fileName);
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader(file));
+			file.createNewFile();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		try {
 			ObjectMapper mapper = new ObjectMapper();
-			ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
-			String json = reader.readLine();
-			String formattedJSON = writer.writeValueAsString(json);
+			String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(jsonData);
+			BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+			writer.write(json);
+			writer.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
