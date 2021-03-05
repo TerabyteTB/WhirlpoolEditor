@@ -1,5 +1,4 @@
 <script src="https://buttons.github.io/buttons.js"></script>
-[Download](https://github.com/TerabyteTB/TextEditor/archive/workinprogress.zip)
 # TextEditor
 ![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/TextEditor)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TerabyteTB/TextEditor)
