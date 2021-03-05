@@ -2,4 +2,5 @@ theme: jekyll-theme-cayman
 show_downloads: true
 description: A text editor made using Java
 github:
-  zip_url: 
+  zip_url: https://github.com/TerabyteTB/TextEditor/archive/workinprogress.zip
+  tar_url:
