@@ -10,7 +10,7 @@
 A text editor using Java, similar to Atom.
 
 - [x]  support sessions
-- [x]  JSON support with JSON-Simple & Jackson
+- [x]  JSON support Jackson
 - [ ]  multi-tab browsing
 
 <a class="github-button" href="https://github.com/TerabyteTB/TextEditor/archive/master.zip" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Download TerabyteTB/TextEditor on GitHub">Download</a>
