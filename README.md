@@ -7,9 +7,9 @@
 
 A text editor using Java, similar to Atom.
 
-- [x]  support sessions
-- [x]  JSON support Jackson
-- [ ]  multi-tab browsing
+- [x] support sessions
+- [x] JSON support with Jackson
+- [ ] multi-tab browsing
 
 A Work In Progress (WIP)
 
