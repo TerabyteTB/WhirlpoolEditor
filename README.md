@@ -1,4 +1,3 @@
-# TextEditor
 ![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/KoffeeKup)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TerabyteTB/TextEditor)
 ![GitHub](https://img.shields.io/github/license/TerabyteTB/TextEditor)
