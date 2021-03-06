@@ -1,4 +1,4 @@
-![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/KoffeeKup)
+![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TerabyteTB/TextEditor)
 ![GitHub](https://img.shields.io/github/license/TerabyteTB/TextEditor)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
