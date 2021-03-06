@@ -17,9 +17,12 @@ public final class SessionHandler {
 		File sessionDir = new File(dir);
 		sessionDir.mkdirs();
 		File sessionFile = new File(dir + "session.ssn");
-		sessionFile.createNewFile();
-		
-		JSONFormatter.formatAndPrintJSON("C:\\Apps\\SimpleJ2\\", "session.ssn", session);
+		if(sessionFile.exists()) {
+			JSONFormatter.formatAndPrintJSON("C:\\Apps\\SimpleJ2\\", "session.ssn", session);
+		} else {
+			sessionFile.createNewFile();
+			JSONFormatter.formatAndPrintJSON("C:\\Apps\\SimpleJ2\\", "session.ssn", session);
+		}
 		
 	}
 
