@@ -1,6 +1,7 @@
+title: Whirlpool Editor
 theme: jekyll-theme-cayman
 show_downloads: true
-description: A text editor made using Java
+description: Simple, open-source Java editor
 github:
-  zip_url: https://github.com/TerabyteTB/TextEditor/archive/workinprogress.zip
-  tar_url: https://github.com/TerabyteTB/TextEditor/archive/workinprogress.tar.gz
+  zip_url: https://github.com/TerabyteTB/TextEditor/archive/v0.0.1.zip
+  tar_url: https://github.com/TerabyteTB/TextEditor/archive/v0.0.1.tar.gz

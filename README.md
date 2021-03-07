@@ -1,5 +1,4 @@
-# TextEditor
-![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/TextEditor)
+![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TerabyteTB/TextEditor)
 ![GitHub](https://img.shields.io/github/license/TerabyteTB/TextEditor)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
@@ -7,9 +6,9 @@
 
 A text editor using Java, similar to Atom.
 
-- [x]  support sessions
-- [x]  JSON support Jackson
-- [ ]  multi-tab browsing
+- [x] support sessions
+- [x] JSON support with Jackson
+- [ ] multi-tab browsing
 
 A Work In Progress (WIP)
 
