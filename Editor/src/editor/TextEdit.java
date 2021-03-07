@@ -33,8 +33,7 @@ public class TextEdit extends JFrame implements ActionListener{
 		
 		frame = new JFrame();
 		try {
-			UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
-			MetalLookAndFeel.setCurrentTheme(new OceanTheme());
+			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException
 				| UnsupportedLookAndFeelException e) {
 			e.printStackTrace();
@@ -46,16 +45,19 @@ public class TextEdit extends JFrame implements ActionListener{
         JMenuItem mi2 = new JMenuItem("Open"); 
         JMenuItem mi3 = new JMenuItem("Save"); 
         JMenuItem mi9 = new JMenuItem("Print"); 
+        JMenuItem mi10 = new JMenuItem("Quit");
         
         mi1.addActionListener(this); 
         mi2.addActionListener(this); 
         mi3.addActionListener(this); 
-        mi9.addActionListener(this); 
+        mi9.addActionListener(this);
+        mi10.addActionListener(this);
         
         m1.add(mi1);
         m1.add(mi2);
         m1.add(mi3);
         m1.add(mi9);
+        m1.add(mi10);
         
         JMenu m2 = new JMenu("Edit"); 
         
@@ -70,14 +72,9 @@ public class TextEdit extends JFrame implements ActionListener{
         m2.add(mi4); 
         m2.add(mi5); 
         m2.add(mi6); 
-        
-        JMenuItem mc = new JMenuItem("Close"); 
-        
-        mc.addActionListener(this); 
   
         mb.add(m1); 
         mb.add(m2); 
-        mb.add(mc); 
   
         frame.setJMenuBar(mb); 
         frame.add(area); 
@@ -181,13 +178,14 @@ public class TextEdit extends JFrame implements ActionListener{
                 } 
             } 
             // If the user cancelled the operation 
-            else
+            else {
                 JOptionPane.showMessageDialog(frame, "the user cancelled the operation"); 
+            }
         } 
         else if (s.equals("New")) { 
             area.setText(""); 
         } 
-        else if (s.equals("Close")) { 
+        else if (s.equals("Quit")) { 
             frame.setVisible(false); 
             System.exit(0);
         } 
