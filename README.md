@@ -3,6 +3,7 @@
 ![GitHub](https://img.shields.io/github/license/TerabyteTB/TextEditor)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TerabyteTB/TextEditor)
+![GitHub last commit](https://img.shields.io/github/last-commit/TerabyteTB/WhirlpoolEditor)
 
 A text editor using Java, similar to Atom.
 
