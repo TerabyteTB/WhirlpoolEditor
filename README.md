@@ -1,6 +1,6 @@
 ![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool)
-![GitHub repo size](https://img.shields.io/github/repo-size/TerabyteTB/TextEditor)
-![GitHub](https://img.shields.io/github/license/TerabyteTB/TextEditor)
+![GitHub repo size](https://img.shields.io/github/repo-size/TerabyteTB/WhirlpoolEditor)
+![GitHub](https://img.shields.io/github/license/TerabyteTB/WhirlpoolEditor)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TerabyteTB/TextEditor)
 ![GitHub last commit](https://img.shields.io/github/last-commit/TerabyteTB/WhirlpoolEditor)
