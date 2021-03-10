@@ -10,3 +10,9 @@ public class Bruh{
     }
 }
 ```
+
+```python
+define bruh():
+    print("Seriously?")
+
+bruh()
