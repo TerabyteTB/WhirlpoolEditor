@@ -1,5 +1,3 @@
-[<- Back](https://terabytetb.github.io)
-
 ![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TerabyteTB/WhirlpoolEditor)
 ![GitHub](https://img.shields.io/github/license/TerabyteTB/WhirlpoolEditor)
