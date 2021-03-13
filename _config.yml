@@ -3,6 +3,6 @@ theme: jekyll-theme-cayman
 show_downloads: true
 description: Simple, open-source Java editor
 github:
-  zip_url: https://github.com/TerabyteTB/TextEditor/archive/v0.0.1.1.zip
-  tar_url: https://github.com/TerabyteTB/TextEditor/archive/v0.0.1.1.tar.gz
-  exe_url: https://www.github.com/TerabyteTB/WhirlpoolEditor/releases/download/v0.0.1.1/editor.exe
+  zip_url: https://github.com/TerabyteTB/TextEditor/archive/v1.0.0.zip
+  tar_url: https://github.com/TerabyteTB/TextEditor/archive/v1.0.0.tar.gz
+  exe_url: https://www.github.com/TerabyteTB/WhirlpoolEditor/releases/download/v1.0.0/whirlpooleditor_1.0.0_install.exe
