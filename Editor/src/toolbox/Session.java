@@ -2,26 +2,31 @@ package toolbox;
 
 public class Session {
 	
-	private int id;
+	public static int id = 0;
+	private int sessionID;
 	private String sessionName;
+	private String value;
 	
 	public Session() {
 		
-		id = 0;
+		sessionID = id;
+		sessionName = "session" + id;
+		id++;
+		value = "none";
 		
 	}
 
-	public Session(int id, String sessionName) {
-		this.id = id;
+	public Session(String value) {
+		sessionID = id;
+		sessionName = "session" + id;
+		id++;
+		this.value = value;
+	}
+
+	public Session(int sessionID, String sessionName, String value) {
+		this.sessionID = sessionID;
 		this.sessionName = sessionName;
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
+		this.value = value;
 	}
 
 	public String getSessionName() {
@@ -32,9 +37,26 @@ public class Session {
 		this.sessionName = sessionName;
 	}
 
+	public int getSessionID() {
+		return sessionID;
+	}
+
+	public void setSessionID(int sessionID) {
+		assert sessionID > id;
+		this.sessionID = sessionID;
+	}
+
+	public String getValue() {
+		return value;
+	}
+
+	public void setValue(String value) {
+		this.value = value;
+	}
+
 	@Override
 	public String toString() {
-		return "Session [id=" + id + ", sessionName=" + sessionName + "]";
+		return "Session [sessionID=" + sessionID + ", sessionName=" + sessionName + ", value=" + value + "]";
 	}
 	
 }
