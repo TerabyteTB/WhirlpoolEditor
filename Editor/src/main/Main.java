@@ -10,6 +10,7 @@ public class Main{
 		run();
 	}
 
+	@SuppressWarnings("unused")
 	public void run() {
 		try {
 			TextEdit editor = new TextEdit();
