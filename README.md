@@ -7,16 +7,22 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TerabyteTB/TextEditor)
 ![GitHub last commit](https://img.shields.io/github/last-commit/TerabyteTB/WhirlpoolEditor)
 
-A text editor using Java, similar to Atom.
+A text editor using Java. It *might* be similar to Atom.
 
 - [x] support sessions
 - [x] JSON support with Jackson
+- [x] runs on separate thread
 - [ ] multi-tab browsing
+- [ ] with syntax highlighting and stuff
 
-## Contributing
+### Contributing
 To contribute to this repo, clone it and import the resulting Editor folder to eclipse. And choose the ```pom.xml``` file in eclipse, and voil&agrave;!
 
 You also need to have ```EGit``` and ```m2e``` plugins installed, in case you want to push or add dependencies.
+
+### Current Issues
+
+I want to add multi-tab browsing at some point, but ```JPanel```'s glitching out. And I gave up. HELP. 
 
 A Work In Progress (WIP)
 
