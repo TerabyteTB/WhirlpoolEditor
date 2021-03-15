@@ -7,7 +7,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TerabyteTB/TextEditor)
 ![GitHub last commit](https://img.shields.io/github/last-commit/TerabyteTB/WhirlpoolEditor)
 
-A text editor using Java, similar to Atom.
+A text editor using Java. It *might* be similar to Atom.
 
 - [x] support sessions
 - [x] JSON support with Jackson
