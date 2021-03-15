@@ -12,6 +12,7 @@ A text editor using Java. It *might* be similar to Atom.
 - [x] support sessions
 - [x] JSON support with Jackson
 - [ ] multi-tab browsing
+- [ ] with syntax highlighting and stuff
 
 ### Contributing
 To contribute to this repo, clone it and import the resulting Editor folder to eclipse. And choose the ```pom.xml``` file in eclipse, and voil&agrave;!
