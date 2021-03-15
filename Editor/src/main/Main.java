@@ -4,17 +4,30 @@ import java.io.IOException;
 
 import editor.TextEdit;
 
-public class Main{
+public class Main implements Runnable{
+	
+	private Thread thread;
 	
 	public Main() {
-		run();
+		thread = new Thread(this);
+		thread.start();
 	}
 
 	@SuppressWarnings("unused")
-	public void run() {
+	public void start() {
 		try {
 			TextEdit editor = new TextEdit();
 		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void run() {
+		start();
+		try {
+			thread.join();
+		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 	}
