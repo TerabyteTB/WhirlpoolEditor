@@ -11,6 +11,7 @@ A text editor using Java. It *might* be similar to Atom.
 
 - [x] support sessions
 - [x] JSON support with Jackson
+- [x] runs on separate thread
 - [ ] multi-tab browsing
 - [ ] with syntax highlighting and stuff
 
