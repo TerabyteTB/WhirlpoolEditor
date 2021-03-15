@@ -3,4 +3,4 @@ To contribute to this repo, clone it and import the resulting Editor folder to e
 
 You also need to have ```EGit``` and ```m2e``` plugins installed, in case you want to push or add dependencies.
 
-Also, um, I want to add multi-tab browsing at some point, but ```JPanel```'s glitchkng out. HELP.
+Also, um, I want to add multi-tab browsing at some point, but ```JPanel```'s glitching out. HELP.
