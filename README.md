@@ -27,4 +27,7 @@ I want to add multi-tab browsing at some point, but ```JPanel```'s glitching out
 A Work In Progress (WIP)
 
 *Tested on Windows 10 x64*
+
+> I wonder if anyone would notice if I put an octocat :octocat: image in there.
+> - Me
  
