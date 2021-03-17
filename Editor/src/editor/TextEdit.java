@@ -1,8 +1,10 @@
 package editor;
 
 import java.awt.BorderLayout;
+import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.BufferedReader;
@@ -13,6 +15,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+
+import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
@@ -20,6 +24,7 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
+import javax.swing.KeyStroke;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
@@ -140,7 +145,8 @@ public class TextEdit extends JFrame implements ActionListener {
             }
         } 
         else if (s.equals("New")) { 
-            area.setText(""); 
+        	area.setText(""); 
+        	area.setVisible(true);
             SessionHandler.removeSession(currentSession);
 			currentSession = SessionHandler.newSession();
         } 
@@ -186,6 +192,15 @@ public class TextEdit extends JFrame implements ActionListener {
         mi10.addActionListener(this);
         mi11.addActionListener(this);
         
+        mi1.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, KeyEvent.CTRL_DOWN_MASK));
+        mi1.setIcon(new ImageIcon("res/new.png"));
+        mi2.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, KeyEvent.CTRL_DOWN_MASK));
+        mi2.setIcon(new ImageIcon("res/open.png"));
+        mi3.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, KeyEvent.CTRL_DOWN_MASK));
+        mi3.setIcon(new ImageIcon("res/save.png"));
+        mi9.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, KeyEvent.CTRL_DOWN_MASK));
+        mi9.setIcon(new ImageIcon("res/print.png"));
+        
         m1.add(mi1);
         m1.add(mi2);
         m1.add(mi3);
@@ -202,6 +217,13 @@ public class TextEdit extends JFrame implements ActionListener {
         mi4.addActionListener(this); 
         mi5.addActionListener(this); 
         mi6.addActionListener(this); 
+        
+        mi4.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_X, KeyEvent.CTRL_DOWN_MASK));
+        mi4.setIcon(new ImageIcon("res/cut.png"));
+        mi5.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_C, KeyEvent.CTRL_DOWN_MASK));
+        mi5.setIcon(new ImageIcon("res/copy.png"));
+        mi6.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, KeyEvent.CTRL_DOWN_MASK));
+        mi6.setIcon(new ImageIcon("res/paste.png"));
         
         m2.add(mi4); 
         m2.add(mi5); 
