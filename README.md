@@ -6,6 +6,7 @@
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TerabyteTB/TextEditor)
 ![GitHub last commit](https://img.shields.io/github/last-commit/TerabyteTB/WhirlpoolEditor)
+![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/TerabyteTB/WhirlpoolEditor?color=cyan&label=CirrusCI%20build)
 
 A text editor using Java. It *might* be similar to Atom.
 
