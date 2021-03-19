@@ -33,7 +33,9 @@ public class Session {
 	/**
 	 * Makes session with value (a <i>lot</i> more useful)
 	 * @param value value of session
+	 * @deprecated
 	 */
+	@Deprecated
 	public Session(String value) {
 		sessionID = id;
 		sessionName = "session" + id;
