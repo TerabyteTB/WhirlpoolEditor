@@ -8,10 +8,25 @@ import java.io.IOException;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * 
+ * Formats JSON
+ * @author Yim
+ * @version 1.0
+ * @since 1.0
+ *
+ */
 public final class JSONFormatter {
 	
 	private JSONFormatter() {}
 	
+	/**
+	 * 
+	 * @param <T> type of object that you want to convert to JSON
+	 * @param path path of JSON file
+	 * @param fileName name of the file
+	 * @param jsonData object that you want to convert to JSON
+	 */
 	public static <T> void formatAndPrintJSON(String path, String fileName, T jsonData) {
 		
 		File fileDir = new File(path);

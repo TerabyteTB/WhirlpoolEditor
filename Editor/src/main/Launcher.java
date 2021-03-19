@@ -2,8 +2,14 @@ package main;
 
 import java.io.IOException;
 
-import editor.TextEdit;
+import editor.Editor;
 
+/**
+ * 
+ * Main class
+ * @author TerabyteTB
+ *
+ */
 public class Launcher {
 
 	@SuppressWarnings("unused")
@@ -11,7 +17,7 @@ public class Launcher {
 		
 		Thread thread = new Thread(() -> {
 			try {
-				TextEdit editor = new TextEdit();
+				Editor editor = new Editor();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
