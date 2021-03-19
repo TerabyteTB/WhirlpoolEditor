@@ -28,6 +28,8 @@ A Work In Progress (WIP)
 
 *Tested on Windows 10 x64*
 
+*Tested on openSUSE Tumbleweed*
+
 > I wonder if anyone would notice if I put an octocat image in there.
 > -Me
  
