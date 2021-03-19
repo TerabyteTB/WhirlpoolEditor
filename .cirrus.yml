@@ -4,4 +4,4 @@ task:
     image: maven:latest
   maven_cache:
     folder: ~/.m2
-  test_script: mvn -f Editor/ -source 8 clean install
+  test_script: mvn -f Editor/ -source 8 test -B
