@@ -4,4 +4,4 @@ bin/
 *.jar
 *.class
 #not sure but probably maven target for classes
-/target/
+target/
