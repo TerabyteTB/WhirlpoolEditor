@@ -28,6 +28,6 @@ A Work In Progress (WIP)
 
 *Tested on Windows 10 x64*
 
-> I wonder if anyone would notice if I put an octocat ![GitHub Logo](https://www.github.com/images/logo.png) image in there.
+> I wonder if anyone would notice if I put an octocat image in there.
 > -Me
  
