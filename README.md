@@ -1,4 +1,4 @@
-<b><a href="https://terabytetb.github.io">&#8592; Back</a></b>
+O<b><a href="https://terabytetb.github.io">&#8592; Back</a></b>
 
 ![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TerabyteTB/WhirlpoolEditor)
