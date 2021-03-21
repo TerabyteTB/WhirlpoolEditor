@@ -33,9 +33,7 @@ public class Session {
 	/**
 	 * Makes session with value (a <i>lot</i> more useful)
 	 * @param value value of session
-	 * @deprecated
 	 */
-	@Deprecated
 	public Session(String value) {
 		sessionID = id;
 		sessionName = "session" + id;
@@ -48,6 +46,7 @@ public class Session {
 	 * @param sessionID sessionid
 	 * @param sessionName session name
 	 * @param value value of new session
+	 * @deprecated
 	 */
 	public Session(int sessionID, String sessionName, String value) {
 		this.sessionID = sessionID;
