@@ -7,4 +7,4 @@ workflows:
   maven_test:
     jobs:
       - maven/test:
-          command: '-f Editor/ verify'
+          command: '-f Editor/ clean install'
