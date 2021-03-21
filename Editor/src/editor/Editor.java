@@ -27,6 +27,7 @@ import javax.swing.KeyStroke;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
+import toolbox.Constants;
 import toolbox.Session;
 import toolbox.SessionHandler;
 
@@ -313,7 +314,7 @@ public class Editor extends JFrame implements ActionListener {
 	 */
 	private String initSession() throws IOException {
 		
-		File dir = new File("C:\\Apps\\SimpleJ2\\");
+		File dir = new File(Constants.DIR);
 		File[] filesArray = null;
 		if(dir.listFiles().length > 0) {
 			filesArray = dir.listFiles();

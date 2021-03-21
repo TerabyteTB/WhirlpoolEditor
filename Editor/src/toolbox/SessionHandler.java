@@ -19,7 +19,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public final class SessionHandler {
 	
 	//giant conditional opererator
-	private static String dir = getOSName().startsWith("Windows") ? "C:\\Apps\\SimpleJ2\\" : getOSName().startsWith("Linux") ? "/home/" + System.getProperty("user.name") + "whirlpooleditor/" : "";
+	private static String dir = Constants.DIR;
 	
 	private SessionHandler() {}
 	
@@ -105,7 +105,7 @@ public final class SessionHandler {
 		
 	}
 	
-	private static String getOSName() {
+	protected static String getOSName() {
 		
 		return System.getProperty("os.name");
 		
