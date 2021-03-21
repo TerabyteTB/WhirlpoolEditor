@@ -1,2 +1,2 @@
 language: java
-script: mvn -f Editor/ clean install
+script: ./scripts/script.sh
