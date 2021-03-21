@@ -1,2 +1,2 @@
 language: java
-script: ./scripts/script.sh
+script: mvn -f Editor/ clean install && mvn cobertura:cobertura
