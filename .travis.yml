@@ -1,4 +1,2 @@
 language: java
-script: mvn -f Editor/ clean install && mvn -f Editor/ cobertura:cobertura
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+script: mvn -f Editor/ clean install
