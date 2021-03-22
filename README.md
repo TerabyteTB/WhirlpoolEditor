@@ -29,7 +29,7 @@ You also need to have ```EGit``` and ```m2e``` plugins installed, in case you wa
 
 ### Installation
 #### Windows 10
-Just download the installer on the releases page or this project's [website](https://terabytetb.github.io/)
+Just download the installer on the releases page or this project's [website](https://terabytetb.github.io/).
 
 #### Linux
 Working on it...
