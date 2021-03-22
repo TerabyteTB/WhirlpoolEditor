@@ -14,6 +14,7 @@
 [![DeepScan grade](https://deepscan.io/api/teams/13347/projects/16353/branches/348738/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=13347&pid=16353&bid=348738)
 [![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IlRlcmFieXRlVEIiLCJyZXBvMSI6IldoaXJscG9vbEVkaXRvciIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjI4NDI3LCJpYXQiOjE2MTYyNTg3Mjl9.DHneQZ3ArCV81F7eYmM7_IQkuXcsXbUUM7apJ7gEVXw)](https://www.deepcode.ai/app/gh/TerabyteTB/WhirlpoolEditor/_/dashboard?utm_content=gh%2FTerabyteTB%2FWhirlpoolEditor)
 [![TerabyteTB](https://circleci.com/gh/TerabyteTB/WhirlpoolEditor.svg?style=svg)](https://app.circleci.com/pipelines/github/TerabyteTB/WhirlpoolEditor)
+![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
 
 A text editor using Java. It *might* be similar to Atom.
 
