@@ -2,7 +2,7 @@
 
 <b><a href="https://terabytetb.github.io">&#8592; Back</a></b>
 
-![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool)
+![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool?logo=appveyor)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TerabyteTB/WhirlpoolEditor)
 ![GitHub](https://img.shields.io/github/license/TerabyteTB/WhirlpoolEditor)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
