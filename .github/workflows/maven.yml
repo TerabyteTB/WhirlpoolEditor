@@ -11,6 +11,10 @@ on:
 
 jobs:
   build: 
+    defaults:
+      run: 
+        working_directiry: Editor/
+      
 
     runs-on: ubuntu-latest
 
