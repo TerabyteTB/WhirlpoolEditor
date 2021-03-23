@@ -18,7 +18,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  */
 public final class SessionHandler {
 	
-	//giant conditional opererator
 	private static String dir = Constants.DIR;
 	
 	private SessionHandler() {}
@@ -79,6 +78,7 @@ public final class SessionHandler {
 		File sessionFile = new File("session_" + id + ".ssn");
 		
 		try {
+			//TODO
 			Map<?, ?> map = mapper.readValue(new File(dir + sessionFile), Map.class);
 			for(Map.Entry<?, ?> entry : map.entrySet()) {
 				if(entry.getKey().equals("value")) {

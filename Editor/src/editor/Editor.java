@@ -22,6 +22,7 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.KeyStroke;
 import javax.swing.UIManager;
@@ -196,6 +197,7 @@ public class Editor extends JFrame implements ActionListener {
         JMenuItem mi9 = new JMenuItem("Print"); 
         JMenuItem mi10 = new JMenuItem("Quit");
         JMenuItem mi11 = new JMenuItem("Stop Session");
+        JScrollPane scrollPane = new JScrollPane(area);
         
         File fi;
         FileReader fr;
@@ -247,10 +249,17 @@ public class Editor extends JFrame implements ActionListener {
   
         mb.add(m1); 
         mb.add(m2); 
+        
+        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+        
+        area.setLineWrap(false);
+        area.setEditable(true);
   
         frame.setJMenuBar(mb); 
         frame.setLayout(new BorderLayout());
         frame.add(area, BorderLayout.CENTER); 
+        frame.add(scrollPane);
         frame.pack();
         frame.setSize(500, 500); 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -279,7 +288,8 @@ public class Editor extends JFrame implements ActionListener {
         
         try { 
             // String 
-            String s1 = "", sl = ""; 
+            String s1 = ""; 
+            String sl = ""; 
             
             if(fi.getAbsolutePath().equalsIgnoreCase("C:\\temp\\temp.tmp")) {
                 area.setVisible(false);

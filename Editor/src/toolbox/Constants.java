@@ -18,6 +18,7 @@ public final class Constants {
 	 */
 	public static final Logger LOGGER = Logger.getGlobal();
 	
-	public static final String DIR = SessionHandler.getOSName().startsWith("Windows") ? "C:\\Apps\\SimpleJ2\\" : SessionHandler.getOSName().startsWith("Linux") ? "/home/" + System.getProperty("user.name") + "whirlpooleditor/" : "";
+	//TODO
+	public static final String DIR = SessionHandler.getOSName().startsWith("Windows") ? "C:\\Apps\\SimpleJ2\\" : "/home/" + System.getProperty("user.name") + "whirlpooleditor/";
 
 }
