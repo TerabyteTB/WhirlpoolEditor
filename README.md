@@ -1,18 +1,20 @@
-(Don’t worry about the failed test of DeepSource)
-
 <b><a href="https://terabytetb.github.io">&#8592; Back</a></b>
 
-![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool)
+![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool?logo=appveyor)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TerabyteTB/WhirlpoolEditor)
 ![GitHub](https://img.shields.io/github/license/TerabyteTB/WhirlpoolEditor)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TerabyteTB/TextEditor)
 ![GitHub last commit](https://img.shields.io/github/last-commit/TerabyteTB/WhirlpoolEditor)
-![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/TerabyteTB/WhirlpoolEditor?color=cyan&label=CirrusCI%20build)
-[![DeepSource](https://deepsource.io/gh/TerabyteTB/WhirlpoolEditor.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/TerabyteTB/WhirlpoolEditor/?ref=repository-badge)
+![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/TerabyteTB/WhirlpoolEditor?label=CirrusCI%20build&logo=cirrus-ci)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fc5074c387d747898c928bfbc208f69d)](https://app.codacy.com/gh/TerabyteTB/WhirlpoolEditor?utm_source=github.com&utm_medium=referral&utm_content=TerabyteTB/WhirlpoolEditor&utm_campaign=Badge_Grade_Settings)
 [![DeepScan grade](https://deepscan.io/api/teams/13347/projects/16353/branches/348738/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=13347&pid=16353&bid=348738)
 [![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IlRlcmFieXRlVEIiLCJyZXBvMSI6IldoaXJscG9vbEVkaXRvciIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjI4NDI3LCJpYXQiOjE2MTYyNTg3Mjl9.DHneQZ3ArCV81F7eYmM7_IQkuXcsXbUUM7apJ7gEVXw)](https://www.deepcode.ai/app/gh/TerabyteTB/WhirlpoolEditor/_/dashboard?utm_content=gh%2FTerabyteTB%2FWhirlpoolEditor)
-[![TerabyteTB](https://circleci.com/gh/TerabyteTB/WhirlpoolEditor.svg?style=svg)](https://app.circleci.com/pipelines/github/TerabyteTB/WhirlpoolEditor)
+![CircleCI](https://img.shields.io/circleci/build/github/TerabyteTB/WhirlpoolEditor?logo=circleci)
+![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
+![Codecov](https://img.shields.io/codecov/c/gh/TerabyteTB/WhirlpoolEditor?logo=codecov)
+
+(Ignore CircleCI. It just doesn't work)
 
 A text editor using Java. It *might* be similar to Atom.
 
@@ -29,7 +31,7 @@ You also need to have ```EGit``` and ```m2e``` plugins installed, in case you wa
 
 ### Installation
 #### Windows 10
-Just download the installer on the releases page or this project's [website](https://terabytetb.github.io/
+Just download the installer on the releases page or this project's [website](https://terabytetb.github.io/).
 
 #### Linux
 Working on it...
