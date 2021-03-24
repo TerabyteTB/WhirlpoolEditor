@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: Run tests
-          command: mvn -f Editor/ clean install; mvn -f Editor cobertura:cobertura
+          command: mvn -f Editor/ clean install; mvn -f Editor cobertura:cobertura; git push https://github.com/TerabyteTB/WhirlpoolEditor.git main
           
 workflows:
   test:
