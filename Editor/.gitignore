@@ -3,5 +3,3 @@ bin/
 #jars and class files
 *.jar
 *.class
-#not sure but probably maven target for classes
-target/
