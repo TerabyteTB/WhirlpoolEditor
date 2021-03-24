@@ -1,4 +1,8 @@
-version: 2.1
+version: 2.0
+
+machine:
+  java:
+    version: openjdk8
 
 orbs:
   maven: circleci/maven@1.1
