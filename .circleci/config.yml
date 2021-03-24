@@ -12,12 +12,8 @@ jobs:
       - run:
           name: Run tests
           command: mvn -f Editor/ clean install
-      - list:
-          name: List items
-          command: ls -la
           
 workflows:
   test:
     jobs:
       - build
-      - list
