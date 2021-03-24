@@ -14,7 +14,7 @@
 ![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
 ![Codecov](https://img.shields.io/codecov/c/gh/TerabyteTB/WhirlpoolEditor?logo=codecov)
 
-A text editor using Java. It *might* be similar to Atom.
+A text editor using Java. I think it *might* be similar to Atom.
 
 - [x] support sessions
 - [x] JSON support with Jackson
