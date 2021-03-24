@@ -2,15 +2,11 @@ version: 2.1
 
 orbs:
   maven: circleci/maven@1.1
-  
-jobs:
-  build:
-    docker:
-      - image: circleci/openjdk:8-jdk-stretch
     
-
 workflows:
   maven_test:
     jobs:
       - maven/test:
+          docker:
+              - image: circleci/openjdk:8-jdk-stretch
           app_src_directory: 'Editor/'
