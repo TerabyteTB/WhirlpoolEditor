@@ -1,9 +1,4 @@
-version: 2.0
-
-commands:
-  openjdk:
-    parameters:
-      version: 8
+version: 2.1
 
 orbs:
   maven: circleci/maven@1.1
