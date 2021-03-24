@@ -1,8 +1,9 @@
 version: 2.0
 
-machine:
-  java:
-    version: 'oraclejdk8'
+commands:
+  openjdk:
+    parameters:
+      version: 8
 
 orbs:
   maven: circleci/maven@1.1
