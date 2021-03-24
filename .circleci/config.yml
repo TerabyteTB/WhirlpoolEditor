@@ -2,11 +2,20 @@ version: 2.1
 
 orbs:
   maven: circleci/maven@1.1
-    
-workflows:
+  
+jobs:
   build:
-    jobs:
-      - maven/test:
-          docker:
-              - image: circleci/openjdk:8-jdk-stretch
-          app_src_directory: 'Editor/'
+    docker: 
+      - image: circleci/openjdk:8-jdk-stretch
+    steps: 
+      - checkout
+      - run:
+          name: Run tests
+          command: mvn -f Editor/ clean install
+      - list:
+          name: List items
+          command: ls -la
+          
+workflows:
+  test:
+    - build
