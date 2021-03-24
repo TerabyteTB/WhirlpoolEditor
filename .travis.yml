@@ -1,4 +1,4 @@
 language: java
 jdk:
   - openjdk 8
-script: mvn -f Editor/ clean install
+script: mvn -f Editor/ test
