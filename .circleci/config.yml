@@ -20,3 +20,4 @@ workflows:
   test:
     jobs:
       - build
+      - list
