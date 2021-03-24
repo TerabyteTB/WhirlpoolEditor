@@ -14,8 +14,6 @@
 ![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
 ![Codecov](https://img.shields.io/codecov/c/gh/TerabyteTB/WhirlpoolEditor?logo=codecov)
 
-(Ignore CircleCI. It just doesn't work)
-
 A text editor using Java. It *might* be similar to Atom.
 
 - [x] support sessions
