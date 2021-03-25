@@ -14,9 +14,11 @@ jobs:
       - run:
           name: Run tests
           command: mvn -f Editor/ clean install; mvn -f Editor/ cobertura:cobertura
+      - upload:
+          name: Upload to Coveralls
+          steps:
+            command: mvn -f Editor/ clean test jacoco:report coveralls:report
       - codecov/upload:
-          file: Editor/target/site/cobertura/coverage.xml
-      - coveralls/upload: 
           file: Editor/target/site/cobertura/coverage.xml
       
 workflows:
