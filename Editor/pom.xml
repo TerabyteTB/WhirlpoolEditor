@@ -46,6 +46,7 @@
         <configuration>
           <repoToken>55fSfzi5sGLmG2oadN8Fe4bnWZNN6zKYD</repoToken>
           <sourceEncoding>UTF-8</sourceEncoding>
+          <jacocoReports>target/site/jacoco/coverage.xml</jacocoReports>
         </configuration>
       </plugin>
     </plugins>
