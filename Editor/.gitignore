@@ -3,3 +3,4 @@ bin/
 #jars and class files
 *.jar
 *.class
+/target/

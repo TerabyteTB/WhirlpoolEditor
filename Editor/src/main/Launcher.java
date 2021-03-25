@@ -15,12 +15,17 @@ public class Launcher {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
-		Thread thread = new Thread(() -> {
-			try {
-				Editor editor = new Editor();
-			} catch (IOException e) {
-				e.printStackTrace();
+		Thread thread = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				try {
+					Editor editor = new Editor();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 			}
+			
 		});
 		
 		thread.start();
