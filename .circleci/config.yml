@@ -12,7 +12,7 @@ jobs:
       - checkout
       - run:
           name: Run tests
-          command: mvn -f Editor/ clean install; mvn -f Editor/ report-integration
+          command: mvn -f Editor/ clean install; mvn -f Editor/ cobertura:cobertura
       - codecov/upload:
           file: Editor/target/site/jacoco/coverage.xml
       
