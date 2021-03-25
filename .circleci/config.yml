@@ -12,7 +12,7 @@ jobs:
       - checkout
       - run:
           name: Run tests
-          command: mvn -f Editor/ clean install; mvn -f Editor/ cobertura:cobertura
+          command: mvn -f Editor/ clean install
       - codecov/upload:
           file: Editor/target/site/cobertura/coverage.xml
       
