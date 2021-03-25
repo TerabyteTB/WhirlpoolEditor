@@ -1,1 +1,0 @@
-- I want to add multi-tab browsing at some point, but ```JPanel```'s glitching out. HELP.
