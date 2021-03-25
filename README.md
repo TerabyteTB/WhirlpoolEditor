@@ -10,7 +10,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fc5074c387d747898c928bfbc208f69d)](https://app.codacy.com/gh/TerabyteTB/WhirlpoolEditor?utm_source=github.com&utm_medium=referral&utm_content=TerabyteTB/WhirlpoolEditor&utm_campaign=Badge_Grade_Settings)
 [![DeepScan grade](https://deepscan.io/api/teams/13347/projects/16353/branches/348738/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=13347&pid=16353&bid=348738)
 [![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IlRlcmFieXRlVEIiLCJyZXBvMSI6IldoaXJscG9vbEVkaXRvciIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjI4NDI3LCJpYXQiOjE2MTYyNTg3Mjl9.DHneQZ3ArCV81F7eYmM7_IQkuXcsXbUUM7apJ7gEVXw)](https://www.deepcode.ai/app/gh/TerabyteTB/WhirlpoolEditor/_/dashboard?utm_content=gh%2FTerabyteTB%2FWhirlpoolEditor) 
-[![Join the chat at https://gitter.im/TerabyteTB/EditorChat](https://badges.gitter.im/TerabyteTB/EditorChat.svg)](https://gitter.im/TerabyteTB/EditorChat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![CircleCI](https://img.shields.io/circleci/build/github/TerabyteTB/WhirlpoolEditor?logo=circleci)
 ![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
 ![Codecov](https://img.shields.io/codecov/c/gh/TerabyteTB/WhirlpoolEditor?logo=codecov)
