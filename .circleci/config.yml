@@ -16,7 +16,7 @@ jobs:
           command: mvn -f Editor/ clean install; mvn -f Editor/ cobertura:cobertura
       - run:
           name: Upload to Coveralls
-          command: mvn -f Editor/ clean test; mvn -f Editor/ cobertura:cobertura coveralls:report
+          command: mvn -f Editor/ clean test; mvn -f Editor/ cobertura:cobertura; ls -a Editor/target/site/cobertura/
       - codecov/upload:
           file: Editor/target/site/cobertura/coverage.xml
       
