@@ -1,0 +1,5 @@
+package editor;
+
+/**
+ * Editor package
+ */
