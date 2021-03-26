@@ -14,6 +14,7 @@
 ![CircleCI](https://img.shields.io/circleci/build/github/TerabyteTB/WhirlpoolEditor?logo=circleci)
 ![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
 ![Codecov](https://img.shields.io/codecov/c/gh/TerabyteTB/WhirlpoolEditor?logo=codecov)
+![Coveralls](https://img.shields.io/coveralls/github/TerabyteTB/WhirlpoolEditor?logo=coveralls)
 
 A text editor using Java. I think it *might* be similar to Atom.
 
@@ -37,9 +38,9 @@ Working on it...
 
 ### Current Issues
 
-I want to add multi-tab browsing at some point, but ```JPanel```'s glitching out. And I gave up. HELP. 
+- I want to add multi-tab browsing at some point, but ```JPanel```'s glitching out. And I gave up. HELP. 
 
-Also, the [giant conditional operator](https://github.com/TerabyteTB/WhirlpoolEditor/blob/303b0367c80533c996127a1c8ea2de0ea94b291e/Editor/src/toolbox/Constants.java#L22) didn't work out.
+- Also, the [giant conditional operator](https://github.com/TerabyteTB/WhirlpoolEditor/blob/303b0367c80533c996127a1c8ea2de0ea94b291e/Editor/src/toolbox/Constants.java#L22) didn't work out.
 
 A Work In Progress (WIP)
 
