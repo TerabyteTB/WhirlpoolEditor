@@ -21,7 +21,7 @@ public class Launcher {
 			public void run() {
 				try {
 					Editor editor = new Editor();
-				} catch (IOException e) {
+				} catch (IOException e) { 
 					e.printStackTrace();
 				}
 			}
