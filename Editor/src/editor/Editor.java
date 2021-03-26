@@ -28,9 +28,9 @@ import javax.swing.KeyStroke;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-import toolbox.Constants;
-import toolbox.Session;
-import toolbox.SessionHandler;
+import utils.Constants;
+import utils.session.Session;
+import utils.session.SessionHandler;
 
 /**
  * 
