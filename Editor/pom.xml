@@ -46,8 +46,8 @@
     	  <configuration>
     	  	<sourceEncoding>UTF-8</sourceEncoding>
         	<formats>
-        		<format>html</format>
-            	<format>xml</format>
+        	  <format>html</format>
+            	  <format>xml</format>
         	</formats>
         	<check />
     	  </configuration>
