@@ -1,5 +1,6 @@
 package utils;
 
+import java.io.File;
 import java.util.logging.Logger;
 
 import utils.session.SessionHandler;
@@ -20,7 +21,9 @@ public final class Constants {
 	 */
 	public static final Logger LOGGER = Logger.getGlobal();
 	
-	//TODO
-	public static final String DIR = SessionHandler.getOSName().startsWith("Windows") ? "C:\\Apps\\SimpleJ2\\" : "/home/" + System.getProperty("user.name") + "whirlpooleditor/";
+	/**
+	 * Editor session path
+	 */
+	public static final String DIR = new File("C:\\").exists() ? "C:\\Apps\\SimpleJ2\\" : new File("/home/").exists() ? "/home/" + System.getProperty("user.name") + "whirlpooleditor/" : "";
 
 }
