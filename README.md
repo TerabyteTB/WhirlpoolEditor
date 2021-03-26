@@ -14,6 +14,7 @@
 ![CircleCI](https://img.shields.io/circleci/build/github/TerabyteTB/WhirlpoolEditor?logo=circleci)
 ![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
 ![Codecov](https://img.shields.io/codecov/c/gh/TerabyteTB/WhirlpoolEditor?logo=codecov)
+![Coveralls](https://img.shields.io/coveralls/github/TerabyteTB/WhirlpoolEditor?logo=coveralls)
 
 A text editor using Java. I think it *might* be similar to Atom.
 
