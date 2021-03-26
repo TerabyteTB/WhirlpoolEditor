@@ -1,4 +1,6 @@
 language: java
 jdk:
   - openjdk 8
-script: mvn -f Editor/ test
+script: mvn -f Editor/ test; mvn -f Editor/ cobertura:cobertura
+after_success: 
+  bash <(curl -s https://codecov.io/bash)

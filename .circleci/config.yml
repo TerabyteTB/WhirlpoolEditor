@@ -3,6 +3,7 @@ version: 2.1
 orbs:
   maven: circleci/maven@1.1
   codecov: codecov/codecov@1.1.3
+  coveralls: coveralls/coveralls@1.0.4
   
 jobs:
   build:
@@ -13,8 +14,11 @@ jobs:
       - run:
           name: Run tests
           command: mvn -f Editor/ clean install; mvn -f Editor/ cobertura:cobertura
+      - run:
+          name: Upload to Coveralls
+          command: mvn -f Editor/ clean test; mvn -f Editor/ cobertura:cobertura; ls -a Editor/target/site/cobertura/
       - codecov/upload:
-          file: Editor/target/site/jacoco/coverage.xml
+          file: Editor/target/site/cobertura/coverage.xml
       
 workflows:
   test:
