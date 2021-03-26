@@ -31,6 +31,11 @@ public final class SessionHandler {
 	 */
 	public static Session newSession() {
 		
+		if(dir.equals("")) {
+			JOptionPane.showMessageDialog(null, "Sorry, your operating system is not supported yet. Please wait for a future release.", 
+										  "OS not Supported", JOptionPane.ERROR_MESSAGE);
+		}
+		
 		Session session = new Session();
 		File sessionDir = new File(dir);
 		sessionDir.mkdirs();
