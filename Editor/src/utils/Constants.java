@@ -1,6 +1,8 @@
-package toolbox;
+package utils;
 
 import java.util.logging.Logger;
+
+import utils.session.SessionHandler;
 
 /**
  * 
