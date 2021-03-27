@@ -17,6 +17,7 @@
 ![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
 ![Codecov](https://img.shields.io/codecov/c/gh/TerabyteTB/WhirlpoolEditor?logo=codecov)
 ![Coveralls](https://img.shields.io/coveralls/github/TerabyteTB/WhirlpoolEditor?logo=coveralls)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/TerabyteTB/WhirlpoolEditor?logo=libraries.io)
 
 A text editor using Java. I think it *might* be similar to Atom.
 
