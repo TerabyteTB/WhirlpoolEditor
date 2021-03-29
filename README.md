@@ -59,3 +59,5 @@ A Work In Progress (WIP)
 ### Additional Info
 #### Website
 ![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=success&up_message=online&url=https%3A%2F%2Fterabytetb.github.io)
+#### UptimeRobot Website Uptime Ratio
+![Uptime Robot ratio (7 days)](https://img.shields.io/uptimerobot/ratio/7/m787654728-20f0cf72b7671b8d35421943)
