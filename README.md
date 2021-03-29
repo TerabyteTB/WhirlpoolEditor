@@ -56,3 +56,6 @@ A Work In Progress (WIP)
 > I wonder if anyone would notice if I put an octocat image in there.
 > &mdash; Me
  
+### Additional Info
+#### Website
+![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=success&up_message=online&url=https%3A%2F%2Fterabytetb.github.io)
