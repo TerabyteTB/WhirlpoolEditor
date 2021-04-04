@@ -13,7 +13,7 @@ import editor.Editor;
 public class Launcher {
 
 	@SuppressWarnings("unused")
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		
 		Thread thread = new Thread(new Runnable() {
 
