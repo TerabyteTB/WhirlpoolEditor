@@ -16,7 +16,7 @@ jobs:
           command: mvn -f Editor/ clean install; mvn -f Editor/ cobertura:cobertura
       - run:
           name: Upload to Coveralls
-          command: mvn -f Editor/ clean test; mvn -f Editor/ cobertura:cobertura -Dcobertura.report.format=xml coveralls:report -Dproject.build.sourceEncoding=UTF-8
+          command: mvn -f Editor/ clean test; mvn -f Editor/ cobertura:cobertura -Dcobertura.report.format=xml coveralls:report -Dproject.build.sourceEncoding=UTF-8; cat Editor/target/site/cobertura/coverage.xml
       - codecov/upload:
           file: Editor/target/site/cobertura/coverage.xml
       
