@@ -22,6 +22,7 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
+import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.KeyStroke;
@@ -45,6 +46,7 @@ public class Editor extends JFrame implements ActionListener {
 	private static final long serialVersionUID = 2144770514856556800L;
 	private JTextArea area;
 	private JFrame frame;
+	private JPanel panel;
 	private Session currentSession;
 	private String value;
 	
@@ -189,6 +191,7 @@ public class Editor extends JFrame implements ActionListener {
 			e.printStackTrace();
 		}
 		area = new JTextArea();
+		panel = new JPanel(new BorderLayout());
 		JMenuBar mb = new JMenuBar();
 		JMenu m1 = new JMenu("File");
 		JMenuItem mi1 = new JMenuItem("New"); 
@@ -255,20 +258,16 @@ public class Editor extends JFrame implements ActionListener {
         
         area.setLineWrap(false);
         area.setEditable(true);
+        
+        panel.add(area, BorderLayout.CENTER);
   
         frame.setJMenuBar(mb); 
         frame.setLayout(new BorderLayout());
-        frame.add(area, BorderLayout.CENTER); 
+        frame.add(panel, BorderLayout.CENTER);
         frame.add(scrollPane);
         frame.pack();
         frame.setSize(500, 500); 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.addWindowListener(new WindowAdapter() {
-        	@Override
-            public void windowClosing(WindowEvent e) {
-                System.exit(0);
-            }
-        });
         frame.setVisible(true);
         
         if(initSession().equalsIgnoreCase("none")) {
