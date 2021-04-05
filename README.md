@@ -41,8 +41,6 @@ Working on it...
 
 - I want to add multi-tab browsing at some point, but ```JPanel```'s glitching out. And I gave up. HELP. 
 
-- Also, the [giant conditional operator](https://github.com/TerabyteTB/WhirlpoolEditor/blob/303b0367c80533c996127a1c8ea2de0ea94b291e/Editor/src/toolbox/Constants.java#L22) didn't work out.
-
 A Work In Progress (WIP)
 
 *Tested on Windows 10 x64*
