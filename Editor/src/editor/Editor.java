@@ -44,7 +44,6 @@ public class Editor extends JFrame implements ActionListener {
 	private static final long serialVersionUID = 2144770514856556800L;
 	private JTextArea area;
 	private JFrame frame;
-	private JPanel panel;
 	private Session currentSession;
 	private String value;
 	
@@ -149,7 +148,7 @@ public class Editor extends JFrame implements ActionListener {
                     br.close();
                 } 
                 catch (Exception evt) { 
-                    JOptionPane.showMessageDialog(frame, evt.getMessage()); 
+                    JOptionPane.showMessageDialog(frame, evt.getStackTrace());
                 } 
             } 
             // If the user cancelled the operation 
@@ -189,7 +188,6 @@ public class Editor extends JFrame implements ActionListener {
 			e.printStackTrace();
 		}
 		area = new JTextArea();
-		panel = new JPanel(new BorderLayout());
 		JMenuBar mb = new JMenuBar();
 		JMenu m1 = new JMenu("File");
 		JMenuItem mi1 = new JMenuItem("New"); 
@@ -256,12 +254,10 @@ public class Editor extends JFrame implements ActionListener {
         
         area.setLineWrap(false);
         area.setEditable(true);
-        
-        panel.add(area, BorderLayout.CENTER);
   
         frame.setJMenuBar(mb); 
         frame.setLayout(new BorderLayout());
-        frame.add(panel, BorderLayout.CENTER);
+        frame.add(area);
         frame.add(scrollPane);
         frame.pack();
         frame.setSize(500, 500); 
