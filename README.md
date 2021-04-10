@@ -2,7 +2,8 @@
 
 Bitbucket mirror can be found [here](https://bitbucket.org/TerabyteTB/whirlpooleditor/src/main/)
 
-## Whirlpool Editor ![Icon](icon.png)
+## Whirlpool Editor
+![Icon](icon.png)
 ### Badges
 ![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool?logo=appveyor)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TerabyteTB/WhirlpoolEditor)
