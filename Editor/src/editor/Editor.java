@@ -1,6 +1,7 @@
 package editor;
 
 import java.awt.BorderLayout;
+import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -20,7 +21,6 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.KeyStroke;
@@ -51,8 +51,12 @@ public class Editor extends JFrame implements ActionListener {
 	 * Makes new editor
 	 * @throws IOException
 	 */
-	public Editor() throws IOException {
-		init();
+	public Editor() {
+		try {
+			init();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	public void actionPerformed(ActionEvent e) {
@@ -149,11 +153,13 @@ public class Editor extends JFrame implements ActionListener {
                 } 
                 catch (Exception evt) { 
                     JOptionPane.showMessageDialog(frame, evt.getStackTrace());
+                    Constants.LOGGER.severe(evt.getMessage());
                 } 
             } 
             // If the user cancelled the operation 
             else {
-                JOptionPane.showMessageDialog(frame, "the user cancelled the operation"); 
+                JOptionPane.showMessageDialog(frame, "the user cancelled the operation");
+                Constants.LOGGER.info("Operation cancelled");
             }
         } 
         else if (s.equals("New")) { 
@@ -196,7 +202,9 @@ public class Editor extends JFrame implements ActionListener {
         JMenuItem mi9 = new JMenuItem("Print"); 
         JMenuItem mi10 = new JMenuItem("Quit");
         JMenuItem mi11 = new JMenuItem("Stop Session");
-        JScrollPane scrollPane = new JScrollPane(area);
+        
+        Component table;
+		JScrollPane scroll = new JScrollPane(area);
         
         File fi;
         FileReader fr;
@@ -247,18 +255,17 @@ public class Editor extends JFrame implements ActionListener {
         m2.add(mi6); 
   
         mb.add(m1); 
-        mb.add(m2); 
+        mb.add(m2);
         
-        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+        scroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        scroll.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
         
         area.setLineWrap(false);
         area.setEditable(true);
   
         frame.setJMenuBar(mb); 
         frame.setLayout(new BorderLayout());
-        frame.add(area);
-        frame.add(scrollPane);
+        frame.add(scroll);
         frame.pack();
         frame.setSize(500, 500); 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

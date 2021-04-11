@@ -1,7 +1,5 @@
-toolbox\SessionHandler.class
-main\Launcher.class
-toolbox\JSONFormatter.class
-editor\Editor$1.class
+utils\session\SessionHandler.class
+utils\Constants.class
 editor\Editor.class
-toolbox\Constants.class
-toolbox\Session.class
+utils\JSONFormatter.class
+utils\session\Session.class
