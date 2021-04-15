@@ -10,7 +10,6 @@ Bitbucket mirror can be found [here](https://bitbucket.org/TerabyteTB/whirlpoole
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fc5074c387d747898c928bfbc208f69d)](https://app.codacy.com/gh/TerabyteTB/WhirlpoolEditor?utm_source=github.com&utm_medium=referral&utm_content=TerabyteTB/WhirlpoolEditor&utm_campaign=Badge_Grade_Settings)
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/TerabyteTB/WhirlpoolEditor/main?logo=codefactor)
 ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/TerabyteTB/WhirlpoolEditor?logo=code-climate)
-[![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IlRlcmFieXRlVEIiLCJyZXBvMSI6IldoaXJscG9vbEVkaXRvciIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjI4NDI3LCJpYXQiOjE2MTYyNTg3Mjl9.DHneQZ3ArCV81F7eYmM7_IQkuXcsXbUUM7apJ7gEVXw)](https://www.deepcode.ai/app/gh/TerabyteTB/WhirlpoolEditor/_/dashboard?utm_content=gh%2FTerabyteTB%2FWhirlpoolEditor)
 [![Gitter](https://img.shields.io/gitter/room/TerabyteTB/WhirlpoolEditor?color=darkgreen&label=chat&logo=gitter)](https://gitter.im/TerabyteTB/EditorChat)
 ![CircleCI](https://img.shields.io/circleci/build/github/TerabyteTB/WhirlpoolEditor?logo=circleci)
 ![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
