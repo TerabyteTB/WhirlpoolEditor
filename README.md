@@ -7,13 +7,13 @@ Bitbucket mirror can be found [here](https://bitbucket.org/TerabyteTB/whirlpoole
 ### Badges
 ![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool?logo=appveyor)
 ![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/TerabyteTB/WhirlpoolEditor?logo=cirrus-ci)
+![CircleCI](https://img.shields.io/circleci/build/github/TerabyteTB/WhirlpoolEditor?logo=circleci)
+![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fc5074c387d747898c928bfbc208f69d)](https://app.codacy.com/gh/TerabyteTB/WhirlpoolEditor?utm_source=github.com&utm_medium=referral&utm_content=TerabyteTB/WhirlpoolEditor&utm_campaign=Badge_Grade_Settings)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/TerabyteTB/WhirlpoolEditor/main?logo=codefactor)](https://www.codefactor.io/repository/github/terabytetb/whirlpooleditor)
 [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/TerabyteTB/WhirlpoolEditor?logo=code-climate)](https://codeclimate.com/github/TerabyteTB/WhirlpoolEditor)
-[![Gitter](https://img.shields.io/gitter/room/TerabyteTB/WhirlpoolEditor?color=darkgreen&label=chat&logo=gitter)](https://gitter.im/TerabyteTB/EditorChat)
-![CircleCI](https://img.shields.io/circleci/build/github/TerabyteTB/WhirlpoolEditor?logo=circleci)
-![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
 [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/TerabyteTB/WhirlpoolEditor?logo=libraries.io)](https://libraries.io/github/TerabyteTB/WhirlpoolEditor)
+[![Gitter](https://img.shields.io/gitter/room/TerabyteTB/WhirlpoolEditor?color=darkgreen&label=chat&logo=gitter)](https://gitter.im/TerabyteTB/EditorChat)
 
 A text editor using Java. I think it *might* be similar to Atom.
 
