@@ -5,14 +5,14 @@ orbs:
   
 jobs:
   build:
-    docker: 
+    docker:
       - image: circleci/openjdk:8-jdk-stretch
-    steps: 
+    steps:
       - checkout
       - run:
           name: Run tests
           command: mvn -f Editor/ clean test
-      
+
 workflows:
   test:
     jobs:
