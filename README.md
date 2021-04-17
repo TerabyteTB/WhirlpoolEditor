@@ -14,6 +14,7 @@ Bitbucket mirror can be found [here](https://bitbucket.org/TerabyteTB/whirlpoole
 [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/TerabyteTB/WhirlpoolEditor?logo=code-climate)](https://codeclimate.com/github/TerabyteTB/WhirlpoolEditor)
 [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/TerabyteTB/WhirlpoolEditor?logo=libraries.io)](https://libraries.io/github/TerabyteTB/WhirlpoolEditor)
 [![Gitter](https://img.shields.io/gitter/room/TerabyteTB/WhirlpoolEditor?color=darkgreen&label=chat&logo=gitter)](https://gitter.im/TerabyteTB/EditorChat)
+[![Matrix](https://img.shields.io/static/v1?label=chat&message=on_matrix&color=darkgreen&logo=matrix)](https://matrix.to/#/!JXoGwoJicbebqHSOBc:matrix.org?via=matrix.org)
 
 A text editor using Java. I think it *might* be similar to Atom.
 
@@ -49,9 +50,3 @@ A Work In Progress (WIP)
 
 > I wonder if anyone would notice if I put an octocat image in there.
 > &mdash; Me
- 
-### Additional Info
-#### Website
-![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=success&up_message=online&url=https%3A%2F%2Fterabytetb.github.io)
-#### UptimeRobot Website Uptime Ratio
-![Uptime Robot ratio (7 days)](https://img.shields.io/uptimerobot/ratio/7/m787654728-20f0cf72b7671b8d35421943)
