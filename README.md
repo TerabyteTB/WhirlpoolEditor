@@ -6,8 +6,9 @@ Bitbucket mirror can be found [here](https://bitbucket.org/TerabyteTB/whirlpoole
 ![Icon](color_logo_transparent.png)
 ### Badges
 ![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool?logo=appveyor)
-![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/TerabyteTB/WhirlpoolEditor?logo=cirrus-ci)
+![Azure DevOps builds](https://img.shields.io/azure-devops/build/raymondminecraft101/dd532155-d2fc-4e1c-ac32-51ae587bc6bc/1?logo=azure-pipelines&logoColor=blue)
 ![CircleCI](https://img.shields.io/circleci/build/github/TerabyteTB/WhirlpoolEditor?logo=circleci)
+![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/TerabyteTB/WhirlpoolEditor?logo=cirrus-ci)
 ![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fc5074c387d747898c928bfbc208f69d)](https://app.codacy.com/gh/TerabyteTB/WhirlpoolEditor?utm_source=github.com&utm_medium=referral&utm_content=TerabyteTB/WhirlpoolEditor&utm_campaign=Badge_Grade_Settings)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/TerabyteTB/WhirlpoolEditor/main?logo=codefactor)](https://www.codefactor.io/repository/github/terabytetb/whirlpooleditor)
