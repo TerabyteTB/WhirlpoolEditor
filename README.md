@@ -14,8 +14,6 @@ Bitbucket mirror can be found [here](https://bitbucket.org/TerabyteTB/whirlpoole
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/TerabyteTB/WhirlpoolEditor/main?logo=codefactor)](https://www.codefactor.io/repository/github/terabytetb/whirlpooleditor)
 [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/TerabyteTB/WhirlpoolEditor?logo=code-climate)](https://codeclimate.com/github/TerabyteTB/WhirlpoolEditor)
 [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/TerabyteTB/WhirlpoolEditor?logo=libraries.io)](https://libraries.io/github/TerabyteTB/WhirlpoolEditor)
-[![Gitter](https://img.shields.io/gitter/room/TerabyteTB/WhirlpoolEditor?color=darkgreen&label=chat&logo=gitter)](https://gitter.im/TerabyteTB/EditorChat)
-[![Matrix](https://img.shields.io/badge/chat-on_matrix-darkgreen?logo=matrix)](https://matrix.to/#/!JXoGwoJicbebqHSOBc:matrix.org?via=matrix.org)
 
 A text editor using Java. I think it *might* be similar to Atom.
 
@@ -48,3 +46,7 @@ A Work In Progress (WIP)
 *Tested on openSUSE Tumbleweed*
 
 **Open For Testing! (I first have to add another DIR conditional operator)**
+
+### Chat
+[![Gitter](https://img.shields.io/gitter/room/TerabyteTB/WhirlpoolEditor?color=darkgreen&label=chat&logo=gitter)](https://gitter.im/TerabyteTB/EditorChat)
+[![Matrix](https://img.shields.io/badge/chat-on_matrix-darkgreen?logo=matrix)](https://matrix.to/#/!JXoGwoJicbebqHSOBc:matrix.org?via=matrix.org)
