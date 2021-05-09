@@ -48,6 +48,3 @@ A Work In Progress (WIP)
 *Tested on openSUSE Tumbleweed*
 
 **Open For Testing! (I first have to add another DIR conditional operator)**
-
-> I wonder if anyone would notice if I put an octocat image in there.
-> &mdash; Me
