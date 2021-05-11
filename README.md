@@ -10,7 +10,6 @@ Bitbucket mirror can be found [here](https://bitbucket.org/TerabyteTB/whirlpoole
 ![CircleCI](https://img.shields.io/circleci/build/github/TerabyteTB/WhirlpoolEditor?logo=circleci)
 ![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/TerabyteTB/WhirlpoolEditor?logo=cirrus-ci)
 ![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fc5074c387d747898c928bfbc208f69d)](https://app.codacy.com/gh/TerabyteTB/WhirlpoolEditor?utm_source=github.com&utm_medium=referral&utm_content=TerabyteTB/WhirlpoolEditor&utm_campaign=Badge_Grade_Settings)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/TerabyteTB/WhirlpoolEditor/main?logo=codefactor)](https://www.codefactor.io/repository/github/terabytetb/whirlpooleditor)
 [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/TerabyteTB/WhirlpoolEditor?logo=code-climate)](https://codeclimate.com/github/TerabyteTB/WhirlpoolEditor)
 [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/TerabyteTB/WhirlpoolEditor?logo=libraries.io)](https://libraries.io/github/TerabyteTB/WhirlpoolEditor)
