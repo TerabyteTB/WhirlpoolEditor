@@ -6,7 +6,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: circleci/openjdk:jdk-stretch
+      - image: circleci/openjdk:jdk
     steps:
       - checkout
       - run:
