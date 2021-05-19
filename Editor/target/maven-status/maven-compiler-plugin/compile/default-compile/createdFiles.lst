@@ -1,5 +1,7 @@
+main\LauncherTest.class
 utils\session\SessionHandler.class
 utils\Constants.class
+module-info.class
 editor\Editor.class
 utils\JSONFormatter.class
 utils\session\Session.class
