@@ -1,6 +1,5 @@
-#binary files in bin
+# binary files in bin/
 bin/
-#jars and class files
-*.jar
+# class files
 *.class
-/target/
+target/

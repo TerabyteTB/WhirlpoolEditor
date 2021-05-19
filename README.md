@@ -6,15 +6,13 @@ Bitbucket mirror can be found [here](https://bitbucket.org/TerabyteTB/whirlpoole
 ![Icon](color_logo_transparent.png)
 ### Badges
 ![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool?logo=appveyor)
-![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/TerabyteTB/WhirlpoolEditor?logo=cirrus-ci)
+![Azure DevOps builds](https://img.shields.io/azure-devops/build/terabytetb/dd532155-d2fc-4e1c-ac32-51ae587bc6bc/1?logo=azure-pipelines&logoColor=blue)
 ![CircleCI](https://img.shields.io/circleci/build/github/TerabyteTB/WhirlpoolEditor?logo=circleci)
+![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/TerabyteTB/WhirlpoolEditor?logo=cirrus-ci)
 ![Travis (.com)](https://img.shields.io/travis/com/TerabyteTB/WhirlpoolEditor?logo=travis)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fc5074c387d747898c928bfbc208f69d)](https://app.codacy.com/gh/TerabyteTB/WhirlpoolEditor?utm_source=github.com&utm_medium=referral&utm_content=TerabyteTB/WhirlpoolEditor&utm_campaign=Badge_Grade_Settings)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/TerabyteTB/WhirlpoolEditor/main?logo=codefactor)](https://www.codefactor.io/repository/github/terabytetb/whirlpooleditor)
 [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/TerabyteTB/WhirlpoolEditor?logo=code-climate)](https://codeclimate.com/github/TerabyteTB/WhirlpoolEditor)
 [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/TerabyteTB/WhirlpoolEditor?logo=libraries.io)](https://libraries.io/github/TerabyteTB/WhirlpoolEditor)
-[![Gitter](https://img.shields.io/gitter/room/TerabyteTB/WhirlpoolEditor?color=darkgreen&label=chat&logo=gitter)](https://gitter.im/TerabyteTB/EditorChat)
-[![Matrix](https://img.shields.io/badge/chat-on_matrix-darkgreen?logo=matrix)](https://matrix.to/#/!JXoGwoJicbebqHSOBc:matrix.org?via=matrix.org)
 
 A text editor using Java. I think it *might* be similar to Atom.
 
@@ -27,7 +25,7 @@ A text editor using Java. I think it *might* be similar to Atom.
 ### Contributing
 To contribute to this repo, clone it and import the resulting Editor folder to eclipse. And choose the ```pom.xml``` file in eclipse, and voil&agrave;!
 
-You also need to have `EGit` and `m2e` plugins installed, in case you want to push or add dependencies.
+You also need to have `EGit` and `m2e` plugins installed
 
 ### Installation
 #### Windows 10
@@ -38,7 +36,7 @@ Working on it...
 
 ### Current Issues
 
-- I want to add multi-tab browsing at some point, but ```JPanel```'s glitching out. And I gave up. HELP. 
+- Update README.md is the most common commit by me. LOL.
 
 A Work In Progress (WIP)
 
@@ -48,5 +46,6 @@ A Work In Progress (WIP)
 
 **Open For Testing! (I first have to add another DIR conditional operator)**
 
-> I wonder if anyone would notice if I put an octocat image in there.
-> &mdash; Me
+### Chat
+[![Gitter](https://img.shields.io/gitter/room/TerabyteTB/WhirlpoolEditor?color=darkgreen&label=chat&logo=gitter)](https://gitter.im/TerabyteTB/EditorChat)
+[![Matrix](https://img.shields.io/badge/chat-on_matrix-darkgreen?logo=matrix)](https://matrix.to/#/!JXoGwoJicbebqHSOBc:matrix.org?via=matrix.org)
