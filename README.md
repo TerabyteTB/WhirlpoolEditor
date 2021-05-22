@@ -25,8 +25,6 @@ A text editor using Java. I think it *might* be similar to Atom.
 ### Contributing
 To contribute to this repo, clone it and import the resulting Editor folder to eclipse. And choose the ```pom.xml``` file in eclipse, and voil&agrave;!
 
-You also need to have `EGit` and `m2e` plugins installed
-
 ### Installation
 #### Windows 10
 Just download the installer on the releases page or this project's [website](https://terabytetb.github.io/).
@@ -36,7 +34,7 @@ Working on it...
 
 ### Current Issues
 
-- Update README.md is the most common commit by me. LOL.
+- Update README.md is the most common commit by me.
 
 A Work In Progress (WIP)
 
@@ -49,3 +47,6 @@ A Work In Progress (WIP)
 ### Chat
 [![Gitter](https://img.shields.io/gitter/room/TerabyteTB/WhirlpoolEditor?color=darkgreen&label=chat&logo=gitter)](https://gitter.im/TerabyteTB/EditorChat)
 [![Matrix](https://img.shields.io/badge/chat-on_matrix-darkgreen?logo=matrix)](https://matrix.to/#/!JXoGwoJicbebqHSOBc:matrix.org?via=matrix.org)
+
+### Notes
+- In case you are wondering, the tests all work, just the gui is not that good but working on it.
