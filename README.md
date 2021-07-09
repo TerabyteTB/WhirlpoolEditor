@@ -1,10 +1,11 @@
+## ⚠️ DEVELOPMENT PAUSED  ⚠️
+
 <b><a href="https://terabytetb.github.io">&#8592; Back</a></b>
 
 Bitbucket mirror can be found [here](https://bitbucket.org/TerabyteTB/whirlpooleditor/src/main/)
 
 ## Whirlpool Editor
 ![Icon](color_logo_transparent.png)
-## ⚠️ DEVELOPMENT PAUSED  ⚠️
 ### Badges
 ![AppVeyor](https://img.shields.io/appveyor/build/TerabyteTB/Whirlpool?logo=appveyor)
 ![CircleCI](https://img.shields.io/circleci/build/github/TerabyteTB/WhirlpoolEditor?logo=circleci)
