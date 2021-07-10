@@ -1,8 +1,8 @@
-# ⚠️ DEVELOPMENT PAUSED  ⚠️
-
 <b><a href="https://terabytetb.github.io">&#8592; Back</a></b>
 
 Bitbucket mirror can be found [here](https://bitbucket.org/TerabyteTB/whirlpooleditor/src/main/)
+
+# ⚠️ DEVELOPMENT PAUSED  ⚠️
 
 ## Whirlpool Editor
 ![Icon](color_logo_transparent.png)
